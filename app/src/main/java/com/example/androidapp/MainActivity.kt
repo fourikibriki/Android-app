@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.EditText
 import com.example.androidapp.R
 
+
 var textView2: EditText?=null
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
