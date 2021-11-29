@@ -1,34 +1,21 @@
-package main
+import info.fandroid.myapplication18.ARG_OBJECT
 
+package info.fandroid.myapplication18
+
+import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentPagerAdapter
-import com.example.androidapp.CamerasFragment
-import com.example.androidapp.DoorsFragment
+import androidx.fragment.app.FragmentActivity
+import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class MyPagerAdapter (fm: FragmentManager) : FragmentPagerAdapter(fm){
-    override fun getItem(position: Int): Fragment {
-        return when (position) {
-            0 -> {
-                CamerasFragment()
-            }
-            else-> { DoorsFragment()
-            }
+class NumberAdapter(fragment: FragmentActivity) : FragmentStateAdapter(fragment) {
+    override fun getItemCount(): Int = 100
 
-
+    override fun createFragment(position: Int): Fragment {
+        val fragment = BlankFragment()
+        fragment.arguments = Bundle().apply {
+            putInt(ARG_OBJECT, position + 1)
         }
+        return fragment
     }
 
-    override fun getCount(): Int {
-        return 2
-    }
-    override fun getPageTitle(position: Int): CharSequence? {
-        return when (position) {
-            0 -> "Cameras Tab"
-            else -> {"Doors Tab"
-            }
-
-
-        }
-    }
 }
