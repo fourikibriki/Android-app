@@ -3,13 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/androidapp/app/src/main/res/layout/activity_api.xml" value="0.1046875" />
-        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/androidapp/app/src/main/res/layout/activity_main.xml" value="0.259375" />
-        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/androidapp/app/src/main/res/layout/activity_main2.xml" value="0.264" />
-        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/androidapp/app/src/main/res/layout/activity_main_doors.xml" value="0.19947916666666668" />
-        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/androidapp/app/src/main/res/layout/fragment_blank.xml" value="0.18177083333333333" />
-        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/androidapp/app/src/main/res/layout/fragment_cameras.xml" value="0.176" />
-        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/androidapp/app/src/main/res/layout/fragment_doors.xml" value="0.152" />
+        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/App/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/App/app/src/main/res/layout/activity_main2.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/App/app/src/main/res/layout/fragment_blank.xml" value="0.2" />
+        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/App/app/src/main/res/layout/fragment_blank1.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/CPRO GROUP/AndroidStudioProjects/App/app/src/main/res/layout/fragment_blank2.xml" value="0.176" />
       </map>
     </option>
   </component>
